@@ -1,0 +1,46 @@
+p {
+    font-size: 15px;
+    color: #00081d;
+    font-family: "Roboto";
+}
+h1 {
+    font-size: 24px;
+    color: #00081d;
+    font-family: "TypoGraphica";
+}
+h4 {
+    font-size: 16px;
+    color: #00081d;
+    font-family: "TypoGraphica";
+}
+.btn-primary {
+    background-color: #102660 !important;
+    border-color: #102660 !important;
+}
+.btn-primary:hover {
+    background-color: #07153d !important;
+    border-color: #07153d !important;
+}
+input {
+    border-radius: 20px !important;
+}
+/* 
+Mudar Depois
+*/
+button {
+    color: aliceblue;
+    background-color: #102660;
+    border-color: #102660;
+    border-radius: 20px;
+    padding: 1% 10%;
+    font-family: "TypoGraphica" !important;
+    border-radius: 20px !important;
+}
+.data {
+    font-size: 12px;
+    padding: 3% 3%;
+    border-radius: 20px;
+    color: aliceblue;
+    background-color: #102660;
+    border-color: #102660;
+}
