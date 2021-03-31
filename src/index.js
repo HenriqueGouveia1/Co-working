@@ -5,7 +5,9 @@ import './styles/App.scss';
 import Login from './pages/Login'
 import Recovery from './pages/Recovery'
 import Register from './pages/Register'
+import Aceppted from './pages/Aceppted'
 import Config from './pages/Config'
+import Changedata from './pages/Changedata'
 import {
   BrowserRouter as Router,
   Switch,
@@ -24,9 +26,15 @@ ReactDOM.render(
         </Route>
         <Route path="/recovery">
           <Recovery />
+          </Route>
+          <Route path="/Aceppted">
+          <Aceppted />
         </Route>
         <Route exact path="/Config">
           <Config />
+        </Route>
+        <Route path="/Changedata">
+          <Changedata />
         </Route>
       </Switch>
     </Router>
