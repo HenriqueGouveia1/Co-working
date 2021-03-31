@@ -1,7 +1,7 @@
 function Config() {
     return (
       <div>
-          ola ola ola
+          ola ola ola 
       </div>
     );
   }
