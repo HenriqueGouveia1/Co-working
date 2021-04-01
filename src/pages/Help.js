@@ -10,7 +10,7 @@ function Help() {
       </div>
 
       <div>
-      <ul className="list-group list-group-flush">
+      <ul className="list-group list-group-flush mt-120">
             <li className="list-group-item1">
               <img src="img/Group_301.svg" alt=""/>
               Fale Conosco</li>

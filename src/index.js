@@ -9,11 +9,17 @@ import Aceppted from './pages/Aceppted'
 import Config from './pages/Config'
 import Changedata from './pages/Changedata'
 import Help from './pages/Help'
+import TalkToUs from './pages/TalkToUs'
+import TalkToUsFeedback from './pages/TalkToUsFeedback'
+import Terms from './pages/Terms'
+import AppData from './pages/AppData'
+
 import { 
   BrowserRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
+
 
 ReactDOM.render(
   <React.StrictMode>
@@ -39,6 +45,18 @@ ReactDOM.render(
         </Route>
         <Route path="/help">
           <Help />
+        </Route>
+        <Route path="/talktous">
+          <TalkToUs/>
+        </Route>
+        <Route path="/talktousfeedback">
+          <TalkToUsFeedback/>
+        </Route>
+        <Route path="/terms">
+          <Terms/>
+        </Route>
+        <Route path="/appdata">
+          <AppData/>
         </Route>
       </Switch>
     </Router>

@@ -44,14 +44,38 @@ Mudar Depois
   border-radius: 20px !important;
 }
 #button2 {
-    color: aliceblue;
-    background-color: #102660;
-    border-color: #102660;
+  color: aliceblue;
+  background-color: #102660;
+  border-color: #102660;
+  border-radius: 20px;
+  padding: 1% 10%;
+  font-family: "TypoGraphica" !important;
+  border-radius: 20px !important;
+}
+
+#button3 {
+    position: absolute;
+    width: 60px;
+    height: 35px;
+    left: 256px;
+    top: 277px;
+    
     border-radius: 20px;
-    padding: 1% 10%;
-    font-family: "TypoGraphica" !important;
-    border-radius: 20px !important;
+    font-family: TypoGraphica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    // identical to box height */
+  
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+    color: #eadede;
   }
+  
+
 .data {
   font-size: 12px;
   padding: 3% 3%;
@@ -102,15 +126,97 @@ Mudar Depois
 }
 
 .navbar {
-  background-color:#0B193D;
-
+  background-color: #0b193d;
 }
 
-.list-group .list-group-flush{
-    font-family: "Roboto" !important;
+.list-group .list-group-flush {
+  font-family: "Roboto" !important;
+  font-size: bold;
+}
+
+.list-group-item3 {
+  list-style-image: image("img/information_2.svg");
+}
+
+#TalkToUsTitle {
+  position: absolute;
+  width: 117px;
+  height: 18px;
+  left: 26px;
+  top: 91px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  // identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #102660;
+}
+
+#FormTalkToUs {
+  position: absolute;
+  width: 350px;
+  height: 150px;
+  left: 32px;
+  top: 111px;
+
+  
+  border: 5px solid #102660;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+#alertSendedMsg{
+    position: absolute;
+    width: 350px;
+    height: 150px;
+    left: 32px;
+    top: 111px;
+  
+    border: 5px solid #102660;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+}
+
+#alertMsg{
+  
     font-size: bold;
+    font-weight: bold;
+    font-family: Roboto;
+    text-align: center;
+    color: #102660;
+
 }
 
-.list-group-item3{
-    list-style-image: image("img/information_2.svg");
+#politicsTitle{
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  color: #102660;
 }
+
+#politicsSubTitle{
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: #102660;
+  }
+
+  #navHelp{
+      border-bottom-style: solid !important;
+      border-bottom: 1px;
+      border-bottom-color: lightslategray;
+  }
