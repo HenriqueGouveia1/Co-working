@@ -1,36 +1,40 @@
 function Config() {
   return (
-   <div>
-      <div class="Search">
-      <nav class="navbar navbar-light bg-light">
-        <form class="form">
-        
-          <input  id="searchInput" class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Search"/>
+    <div >
+      <div class="Search ">
+        <nav class="navbar navbar-light bg-light ">
+          <i class="bi bi-search"></i>
 
-        </form>
-        <div id="logo"> <img src="img/logo.png" alt="logo"  /> </div>
-      </nav>
+          <form class="form">
 
-    </div>
+            <input id="searchInput" class="form-control mr-sm-2 " type="search" placeholder="Pesquisar" aria-label="Search" />
 
-      <div>
-        <nav class="navbar" >
-          <a class="navbar-brand" href="1">
-            <img src="img/Home.svg" width="30" height="30" class="d-inline-block align-top ml-30"  alt="Home"/>
-          </a>
-          <a class="navbar-brand" href="2">
-            <img src="img/FAVORITO.svg" width="30" height="30" class="d-inline-block align-top" alt="Fav"/>
-          </a>
-          <a class="navbar-brand" href="3">
-            <img src="img/LIBRAS.svg" width="30" height="30" class="d-inline-block align-top" alt="Libras"/>
-          </a>
-          <a class="navbar-brand" href="4">
-            <img src="img/OPCOES_1.png" width="30" height="30" class="d-inline-block align-top" alt="Opotions"/>
-          </a>
-       </nav>
+          </form>
+          <div id="logo"> <img src="img/logo.png" alt="logo" /> </div>
+        </nav>
+
       </div>
+      <footer>
+        <div class="navbar-expand fixed-bottom">
+          <nav class="navbar " >
 
-    </div>   
+            <a class="navbar-brand" href="1">
+              <img src="img/Home.svg" width="30" height="30" class="d-inline-block align-top ml-30" alt="Home" />
+            </a>
+            <a class="navbar-brand" href="2">
+              <img src="img/FAVORITO.svg" width="30" height="30" class="d-inline-block align-top" alt="Fav" />
+            </a>
+            <a class="navbar-brand" href="3">
+              <img src="img/LIBRAS.svg" width="30" height="30" class="d-inline-block align-top" alt="Libras" />
+            </a>
+            
+            <a class="navbar-brand" href="4">
+              <img src="img/OPCOES_1.png" width="30" height="30" class="d-inline-block align-top" alt="Opotions" />
+            </a>
+          </nav>
+        </div>
+      </footer>
+    </div>
 
   );
 }

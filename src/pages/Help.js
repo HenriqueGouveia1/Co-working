@@ -4,15 +4,14 @@ function Help() {
       <div class="Search">
         <nav class="navbar navbar-light bg-light">
           <div id="logo"> <h1>Ajuda</h1> </div>
-          <img src="img/logo.png" alt="logo" />
+          <img id="logo" src="img/logo.png" alt="logo" />
         </nav>
 
       </div>
 
       <footer>
-        <div class="navbar-inverse navbar-fixed-bottom">
+        <div class="navbar-expand fixed-bottom">
           <nav class="navbar " >
-
             <a class="navbar-brand" href="1">
               <img src="img/Home.svg" width="30" height="30" class="d-inline-block align-top ml-30" alt="Home" />
             </a>
