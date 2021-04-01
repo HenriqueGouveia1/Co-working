@@ -16,16 +16,16 @@ function Config() {
       <div>
         <nav class="navbar navbar-light bg-light" >
           <a class="navbar-brand" href="#">
-            <img src="img/Home.svg" width="30" height="30" class="d-inline-block align-top ml-30"  alt=""/>
+            <img src="img/Home.svg" width="30" height="30" class="d-inline-block align-top ml-30"  alt="Home"/>
           </a>
           <a class="navbar-brand" href="#">
-            <img src="img/FAVORITO.svg" width="30" height="30" class="d-inline-block align-top" alt=""/>
+            <img src="img/FAVORITO.svg" width="30" height="30" class="d-inline-block align-top" alt="Fav"/>
           </a>
           <a class="navbar-brand" href="#">
-            <img src="img/LIBRAS.svg" width="30" height="30" class="d-inline-block align-top" alt=""/>
+            <img src="img/LIBRAS.svg" width="30" height="30" class="d-inline-block align-top" alt="Libras"/>
           </a>
           <a class="navbar-brand" href="#">
-            <img src="img/OPCOES_1.png" width="30" height="30" class="d-inline-block align-top" alt=""/>
+            <img src="img/OPCOES_1.png" width="30" height="30" class="d-inline-block align-top" alt="Opotions"/>
           </a>
        </nav>
       </div>
