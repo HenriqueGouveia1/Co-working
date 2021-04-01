@@ -29,6 +29,7 @@ input,select {
 }
 input,select::placeholder{
   text-align: left;
+  
 }
 
 /* 
@@ -65,4 +66,39 @@ button {
 }
 #item3{
     grid-row: 1/3;
+}
+
+
+.Search {
+    
+    border-bottom-style: groove;
+    border-bottom-color: #102660;
+    border-bottom-width: thin;
+    
+}
+
+#searchInput{
+    
+    width: 269px;
+    height: 45px;
+    left: 14px;
+    top: 35px;
+    
+    background: #B7B7B3;
+    opacity: 0.6;
+    border-radius: 15px;
+}
+#searchInput::placeholder{
+    text-align: center;
+    color: #102660;
+    font-family: "Roboto";
+    font-size: 16px;
+    
+}
+
+
+
+
+.navbar .navbar-light{
+   
 }

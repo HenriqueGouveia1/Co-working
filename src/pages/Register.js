@@ -11,7 +11,7 @@ function Register() {
             </div>
             
             <div className="mb-3">
-                <select placeholder="Você é" className="form-control btn btn-primary" id="formYoure">
+                <select className="form-control btn btn-primary form-select" id="formYoure" >
                 <option hidden >Você é...</option>
                 <option value="Estudante">Estudante</option>
                 <option value="Interpreté">Interpreté</option>
