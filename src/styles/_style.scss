@@ -1,105 +1,106 @@
 p {
-    font-size: 15px;
-    color: #00081d;
-    font-family: "Roboto";
+  font-size: 15px;
+  color: #00081d;
+  font-family: "Roboto";
 }
 h1 {
-    font-size: 24px;
-    color: #00081d;
-    font-family: "TypoGraphica";
+  font-size: 24px;
+  color: #00081d;
+  font-family: "TypoGraphica";
 }
 h4 {
-    font-size: 16px;
-    color: #00081d;
-    font-family: "TypoGraphica";
+  font-size: 16px;
+  color: #00081d;
+  font-family: "TypoGraphica";
 }
 .btn-primary {
-    background-color: #102660 !important;
-    border-color: #102660 !important;
+  background-color: #102660 !important;
+  border-color: #102660 !important;
 }
 .btn-primary:hover {
-    background-color: #07153d !important;
-    border-color: #07153d !important;   
+  background-color: #07153d !important;
+  border-color: #07153d !important;
 }
-input,select {
-    border-radius: 20px !important;
-    text-align: left !important;
-    
-    
+input,
+select {
+  border-radius: 20px !important;
+  text-align: left !important;
 }
-input,select::placeholder{
+input,
+select::placeholder {
   text-align: left;
-  
 }
 
 /* 
 Mudar Depois
 */
 button {
-    color: aliceblue;
-    background-color: #102660;
-    border-color: #102660;
-    border-radius: 20px;
-    padding: 1% 10%;
-    font-family: "TypoGraphica" !important;
-    border-radius: 20px !important;
+  color: aliceblue;
+  background-color: #102660;
+  border-color: #102660;
+  border-radius: 20px;
+  padding: 1% 10%;
+  font-family: "TypoGraphica" !important;
+  border-radius: 20px !important;
 }
 .data {
-    font-size: 12px;
-    padding: 3% 3%;
-    border-radius: 20px;
-    color: aliceblue;
-    background-color: #102660;
-    border-color: #102660;
-   
+  font-size: 12px;
+  padding: 3% 3%;
+  border-radius: 20px;
+  color: aliceblue;
+  background-color: #102660;
+  border-color: #102660;
 }
 
 .grid-container {
-    display: grid;
-  }
-
-#item1{
-    grid-row: 1/1;
-}
-#item2{
-    grid-row: 1/2;
-}
-#item3{
-    grid-row: 1/3;
+  display: grid;
 }
 
+#item1 {
+  grid-row: 1/1;
+}
+#item2 {
+  grid-row: 1/2;
+}
+#item3 {
+  grid-row: 1/3;
+}
 
 .Search {
-    
-    border-bottom-style: groove;
-    border-bottom-color: #102660;
-    border-bottom-width: thin;
-   
+  border-bottom-style: groove;
+  border-bottom-color: #102660;
+  border-bottom-width: thin;
 }
 
-#searchInput{
-    
-    width: auto;
-    height: auto;
-    
-    background: #B7B7B3;
-    opacity: 0.6;
-    border-radius: 15px;
+#searchInput {
+  width: auto;
+  height: auto;
+
+  background: #b7b7b3;
+  opacity: 0.6;
+  border-radius: 15px;
 }
-#searchInput::placeholder{
-    text-align: center;
-    color: #102660;
-    font-family: "Roboto";
-    font-size: 16px;
-    
+#searchInput::placeholder {
+  text-align: center;
+  color: #102660;
+  font-family: "Roboto";
+  font-size: 16px;
 }
 
-#logo{
-    width: auto;
-    height: auto;
+#logo {
+  width: auto;
+  height: auto;
 }
 
-.navbar{
-    background-color: #102660;
-    
+.navbar {
+  background-color: #102660;
+}
+
+.list-group .list-group-flush{
+    font-family: "Roboto" !important;
+    font-size: bold;
+}
+
+.list-group-item3{
+    list-style-image: image("img/information_2.svg");
 }

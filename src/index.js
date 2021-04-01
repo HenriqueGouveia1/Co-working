@@ -9,6 +9,7 @@ import Aceppted from './pages/Aceppted'
 import Config from './pages/Config'
 import Changedata from './pages/Changedata'
 import Help from './pages/Help'
+import navFooter from './pages/navFooter'
 import {
   BrowserRouter as Router,
   Switch,

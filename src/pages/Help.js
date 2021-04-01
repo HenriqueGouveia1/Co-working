@@ -1,13 +1,30 @@
+import navFooter from "./navFooter";
+
 function Help() {
   return (
+
     <div>
       <div class="Search">
         <nav class="navbar navbar-light bg-light">
-          <div id="logo"> <h1>Ajuda</h1> </div>
+          <img class="ml-30" id="questionMark" src="img/pergunta 4.png" alt="interroga" />
+          <div class="ml-30"> <h1>Ajuda</h1> </div>
           <img id="logo" src="img/logo.png" alt="logo" />
         </nav>
-
       </div>
+
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item1">
+          <img src="img/Group_301.svg" alt=""/>
+          Fale Conosco</li>
+        <li class="list-group-item2">
+        <img src="img/Group_64.svg" alt=""/>
+          Termos de Serviço e Políticas de Privacidade</li>
+        <li class="list-group-item3" href="#">
+        <img src="img/information_2.svg" alt="" />
+          Dados do aplicativo</li>
+       
+      </ul>
+
 
       <footer>
         <div class="navbar-expand fixed-bottom">
@@ -27,7 +44,6 @@ function Help() {
           </nav>
         </div>
       </footer>
-
     </div>
 
   );
