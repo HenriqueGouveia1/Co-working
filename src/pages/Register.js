@@ -12,7 +12,7 @@ function Register() {
             
             <div className="mb-3">
                 <select className="form-control btn btn-primary form-select" id="formYoure" >
-                <option hidden >Você é...</option>
+                <option hidden >Você é:</option>
                 <option value="Estudante">Estudante</option>
                 <option value="Interpreté">Interpreté</option>
                 <option value="Professor">Professor</option>

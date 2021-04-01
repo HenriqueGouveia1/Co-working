@@ -11,7 +11,13 @@ function Changedata() {
                 <input type="email" placeholder="Endereço de email" className="form-control btn btn-primary" id="formEmail"/>
             </div>
             <div className="mb-3">
-                <input type="text" placeholder="Você é" className="form-control btn btn-primary" id="formYoure"/>
+                <select className="form-control btn btn-primary form-select" id="formYoure" >
+                <option hidden >Você é:</option>
+                <option value="Estudante">Estudante</option>
+                <option value="Interpreté">Interpreté</option>
+                <option value="Professor">Professor</option>
+                <option value="Outros">Outros</option>
+                </select>
             </div>
             <div className="mb-3">
                 <input type="password" placeholder="Senha Atual" className="form-control btn btn-primary" id="formPass"/>

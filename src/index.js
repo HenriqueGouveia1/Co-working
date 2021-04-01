@@ -8,6 +8,7 @@ import Register from './pages/Register'
 import Aceppted from './pages/Aceppted'
 import Config from './pages/Config'
 import Changedata from './pages/Changedata'
+import Help from './pages/Help'
 import {
   BrowserRouter as Router,
   Switch,
@@ -27,14 +28,17 @@ ReactDOM.render(
         <Route path="/recovery">
           <Recovery />
           </Route>
-          <Route path="/Aceppted">
+          <Route path="/aceppted">
           <Aceppted />
         </Route>
-        <Route exact path="/Config">
+        <Route exact path="/config">
           <Config />
         </Route>
-        <Route path="/Changedata">
+        <Route path="/changedata">
           <Changedata />
+        </Route>
+        <Route path="/help">
+          <Help />
         </Route>
       </Switch>
     </Router>
