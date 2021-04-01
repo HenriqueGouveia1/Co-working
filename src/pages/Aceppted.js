@@ -7,11 +7,11 @@ function Aceppted() {
             <form>
 
                 <div className="mb-3">
-                    <input type="password" placeholder="Email" className="form-control btn btn-primary" id="formPassword" />
+                    <input type="email" placeholder="Email" className="form-control btn btn-primary" id="formEmail" />
                 </div>
             </form>
             <p className="mt-120 mb-3">Senha enviada com sucesso! Sua senha foi enviada para seu e-mail. </p>
-            <button type="submit" className="btn btn-primary mt-30 mb-4">Fazer login</button>
+            <button id="button2" type="submit" className="btn btn-primary mt-30 mb-4">Fazer login</button>
         </div>
     )
 }

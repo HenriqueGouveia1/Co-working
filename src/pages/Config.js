@@ -1,39 +1,22 @@
+import NavFooter from "../componets/NavFooter";
+
 function Config() {
   return (
     <div >
-      <div class="Search ">
-        <nav class="navbar navbar-light bg-light ">
-          <i class="bi bi-search"></i>
+      <div className="Search ">
+        <nav className="navbar navbar-light bg-light ">
+          <i className="bi bi-search"></i>
 
-          <form class="form">
+          <form className="form">
 
-            <input id="searchInput" class="form-control mr-sm-2 " type="search" placeholder="Pesquisar" aria-label="Search" />
+            <input id="searchInput" className="form-control mr-sm-2 " type="search" placeholder="Pesquisar" aria-label="Search" />
 
           </form>
           <div id="logo"> <img src="img/logo.png" alt="logo" /> </div>
         </nav>
 
       </div>
-      <footer>
-        <div class="navbar-expand fixed-bottom">
-          <nav class="navbar " >
-
-            <a class="navbar-brand" href="1">
-              <img src="img/Home.svg" width="30" height="30" class="d-inline-block align-top ml-30" alt="Home" />
-            </a>
-            <a class="navbar-brand" href="2">
-              <img src="img/FAVORITO.svg" width="30" height="30" class="d-inline-block align-top" alt="Fav" />
-            </a>
-            <a class="navbar-brand" href="3">
-              <img src="img/LIBRAS.svg" width="30" height="30" class="d-inline-block align-top" alt="Libras" />
-            </a>
-            
-            <a class="navbar-brand" href="4">
-              <img src="img/OPCOES_1.png" width="30" height="30" class="d-inline-block align-top" alt="Opotions" />
-            </a>
-          </nav>
-        </div>
-      </footer>
+      <NavFooter/>
     </div>
 
   );

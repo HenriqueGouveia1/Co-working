@@ -28,22 +28,22 @@ function Register() {
                 </div>     
                 
                 <div className="ml-60 mr-60 mb-30">
-                <h4  class="data">Data de Nascimento</h4>
+                <h4  className="data">Data de Nascimento</h4>
                 </div>
             
-            <div class="grid-container">
-                <div id= "item1" class="grid-item" className="ml-30 mr-30 mb-3">
+            <div className="grid-container">
+                <div id= "item1" className="grid-item" className="ml-30 mr-30 mb-3">
                     <input type="text" placeholder="JAN" className=" form-control btn btn-primary" id="formUsername"/>
                 </div>
-                <div id= "item2" class="grid-item" className="mr-30 mb-3">
+                <div id= "item2" className="grid-item" className="mr-30 mb-3">
                     <input type="number" placeholder="01" className="form-control btn btn-primary" id="formUsername"/>
                 </div>
-                <div id= "item3" class="grid-item" className="mr-30 mb-3">
+                <div id= "item3" className="grid-item" className="mr-30 mb-3">
                     <input type="number" placeholder="2000" className="form-control btn btn-primary" id="formUsername"/>
                 </div>
             </div>
 
-            <button type="submit" className="btn btn-primary mt-5 mb-4">Criar Conta</button>
+            <button id="button2" type="submit" className="btn btn-primary mt-5 mb-4">Criar Conta</button>
         </form>
     <p>Ao se cadastrar, você concorda com os Termos de Serviço e a Política de Privacidade. </p>
     </div>

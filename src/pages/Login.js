@@ -14,12 +14,12 @@ function Login() {
                 <input type="checkbox" className="form-check-input" id="lsenha"/>
                 <label className="form-check-label" for="lsenha">Lembrar Senha</label>
             </div>
-            <button type="submit"  className="btn btn-primary">Entrar</button>
+            <button id="button2" type="submit"  className="btn btn-primary">Entrar</button>
         </form>
         <h1 className="mt-5 mb-3">Ou</h1>
-        <div class="d-grid gap-2">
-            <button class="btn btn-primary" type="button"><img className="mr-30" src="img/icongoogle.png" alt="googleicon" /> Continuar com o google</button>
-            <button class="btn btn-primary" type="button">Novo usuario? Crie uma conta</button>
+        <div className="d-grid gap-2">
+            <button id="button1" className="btn btn-primary" type="button"><img className="mr-30" src="img/icongoogle.png" alt="googleicon" /> Continuar com o google</button>
+            <button id="button1" className="btn btn-primary" type="button">Novo usuario? Crie uma conta</button>
         </div>
         <p className="mt-3 mb-3">Esqueceu sua senha? Clique aqui. </p>
     </div>

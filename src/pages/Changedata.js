@@ -24,15 +24,15 @@ function Changedata() {
             </div>
                 <h3 className="mt-30 mb-30">Alterar Dados</h3>
                 <div className="mb-3">
-                <input type="password" placeholder="Senha Atual" className="form-control btn btn-primary" id="formUsername"/>
+                <input type="password" placeholder="Senha Atual" className="form-control btn btn-primary" id="formPass"/>
                 </div>
             <div className="mb-3">
-                <input type="password" placeholder="Nova Senha" className="form-control btn btn-primary" id="formUsername"/>
+                <input type="password" placeholder="Nova Senha" className="form-control btn btn-primary" id="formPass"/>
             </div>
             <div className="mb-3">
-                <input type="password" placeholder="Confirmar Nova Senha" className="form-control btn btn-primary" id="formUsername"/>
+                <input type="password" placeholder="Confirmar Nova Senha" className="form-control btn btn-primary" id="formPass"/>
             </div>
-            <button type="submit" className="btn btn-primary mt-5 mb-4">Alterar</button>
+            <button id="button2" type="submit" className="btn btn-primary mt-5 mb-4">Alterar</button>
         </form>
     </div>
     );

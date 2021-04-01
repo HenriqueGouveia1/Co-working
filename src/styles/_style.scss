@@ -34,7 +34,7 @@ select::placeholder {
 /* 
 Mudar Depois
 */
-button {
+#button1 {
   color: aliceblue;
   background-color: #102660;
   border-color: #102660;
@@ -43,6 +43,15 @@ button {
   font-family: "TypoGraphica" !important;
   border-radius: 20px !important;
 }
+#button2 {
+    color: aliceblue;
+    background-color: #102660;
+    border-color: #102660;
+    border-radius: 20px;
+    padding: 1% 10%;
+    font-family: "TypoGraphica" !important;
+    border-radius: 20px !important;
+  }
 .data {
   font-size: 12px;
   padding: 3% 3%;
@@ -93,7 +102,8 @@ button {
 }
 
 .navbar {
-  background-color: #102660;
+  background-color:#0B193D;
+
 }
 
 .list-group .list-group-flush{
