@@ -1,32 +1,36 @@
 function Help() {
-    return (
-     <div>
-        <div class="Search">
+  return (
+    <div>
+      <div class="Search">
         <nav class="navbar navbar-light bg-light">
-          <div id="logo"> <h1>Ajuda</h1> <img src="img/logo.png" alt="logo"  /> </div>
+          <div id="logo"> <h1>Ajuda</h1> </div>
+          <img src="img/logo.png" alt="logo" />
         </nav>
-  
+
       </div>
-  
-        <div>
-          <nav class="navbar navbar-light bg-light" >
+
+      <footer>
+        <div class="navbar-inverse navbar-fixed-bottom">
+          <nav class="navbar " >
+
             <a class="navbar-brand" href="1">
-              <img src="img/Home.svg" width="30" height="30" class="d-inline-block align-top ml-30"  alt="Home"/>
+              <img src="img/Home.svg" width="30" height="30" class="d-inline-block align-top ml-30" alt="Home" />
             </a>
             <a class="navbar-brand" href="2">
-              <img src="img/FAVORITO.svg" width="30" height="30" class="d-inline-block align-top" alt="Fav"/>
+              <img src="img/FAVORITO.svg" width="30" height="30" class="d-inline-block align-top" alt="Fav" />
             </a>
             <a class="navbar-brand" href="3">
-              <img src="img/LIBRAS.svg" width="30" height="30" class="d-inline-block align-top" alt="Libras"/>
+              <img src="img/LIBRAS.svg" width="30" height="30" class="d-inline-block align-top" alt="Libras" />
             </a>
             <a class="navbar-brand" href="4">
-              <img src="img/OPCOES_1.png" width="30" height="30" class="d-inline-block align-top" alt="Opotions"/>
+              <img src="img/OPCOES_1.png" width="30" height="30" class="d-inline-block align-top" alt="Opotions" />
             </a>
-         </nav>
+          </nav>
         </div>
-  
-      </div>   
-  
-    );
-  }
-  export default Help;
+      </footer>
+
+    </div>
+
+  );
+}
+export default Help;

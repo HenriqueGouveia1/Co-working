@@ -14,7 +14,7 @@ function Config() {
     </div>
 
       <div>
-        <nav class="navbar navbar-light bg-light" >
+        <nav class="navbar" >
           <a class="navbar-brand" href="1">
             <img src="img/Home.svg" width="30" height="30" class="d-inline-block align-top ml-30"  alt="Home"/>
           </a>
