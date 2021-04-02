@@ -1,7 +1,7 @@
 function NavSearchBar(){
     return(
         <div className="Search ">
-        <nav className="navbar navbar-light bg-light ">
+        <nav className="navbar fixed-top navbar-light bg-light">
           <i className="bi bi-search"></i>
 
           <form className="form">

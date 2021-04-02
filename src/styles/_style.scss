@@ -220,3 +220,32 @@ Mudar Depois
       border-bottom: 1px;
       border-bottom-color: lightslategray;
   }
+
+  .wrapper{
+    max-height: 120px;
+    border: 1px solid lightslategrey;
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .wrapper::-webkit-scrollbar{
+    width: 0;
+  }
+
+  .wrapper .item{
+    min-width: 110px;
+    height: 110px;
+    line-height: 110px;
+    text-align: center;
+    background-color: lightyellow;
+    margin-right: 2px;
+  }
+
+  #wrapperTitle{
+    font-family: Roboto;
+    font-style: normal;
+    color: lightyellow;
+    
+    background-color: #102660;
+    border-radius: 10px;
+  }

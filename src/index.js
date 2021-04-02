@@ -6,7 +6,7 @@ import Login from './pages/Login'
 import Recovery from './pages/Recovery'
 import Register from './pages/Register'
 import Aceppted from './pages/Aceppted'
-import Config from './pages/Config'
+import SubjectScreen from './pages/SubjectScreen'
 import Changedata from './pages/Changedata'
 import Help from './pages/Help'
 import TalkToUs from './pages/TalkToUs'
@@ -37,8 +37,8 @@ ReactDOM.render(
           <Route path="/aceppted">
           <Aceppted />
         </Route>
-        <Route exact path="/config">
-          <Config />
+        <Route exact path="/subjectscreen">
+          <SubjectScreen />
         </Route>
         <Route path="/changedata">
           <Changedata />
