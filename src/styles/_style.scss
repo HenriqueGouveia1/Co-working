@@ -31,9 +31,7 @@ select::placeholder {
   text-align: left;
 }
 
-/* 
-Mudar Depois
-*/
+
 #button1 {
   color: aliceblue;
   background-color: #102660;
@@ -73,6 +71,16 @@ Mudar Depois
   text-align: center;
 
   color: #eadede;
+}
+
+#button4 {
+  color: aliceblue;
+  background-color: #21429d;
+  border-color: #21429d;
+  border-radius: 30px;
+  padding: 1% 20%;
+  font-family: "Roboto" !important;
+  border-radius: 10px !important;
 }
 
 .data {
@@ -241,22 +249,22 @@ Mudar Depois
 }
 
 .wrapper {
-  max-height: 120px;
-  border: 1px solid lightslategrey;
+  max-height: auto;
   display: flex;
   overflow-x: auto;
 }
 
 .wrapper::-webkit-scrollbar {
   width: 0;
+  height: 0;
 }
 
 .wrapper .item {
   min-width: 110px;
-  height: 110px;
-  line-height: 110px;
+  height: auto;
+  line-height: auto;
   text-align: center;
-  background-color: lightyellow;
+  background-color: white;
   margin-right: 2px;
 }
 
@@ -265,8 +273,10 @@ Mudar Depois
   font-style: normal;
   color: lightyellow;
 
+  padding: 1% 1%;
   background-color: #102660;
-  border-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
   margin-right: 50px;
 }
 

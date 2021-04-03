@@ -6,22 +6,22 @@ import SubjectWrapper from "../components/SubjectWrapper";
 function Config() {
   return (
     <div >
-      <NavSeachBar/>
-      
+      <NavSeachBar />
+
       <body>
-      <div className="mt-120">
-        <SubjectWrapper/>
-      </div>
-      <SubjectWrapper/>
-        <SubjectWrapper/>
-       
-       <div className="mb-60">
-       <SubjectWrapper/>
-       </div>
+        <div className="mt-120">
+          <SubjectWrapper />
+        </div>
+        <SubjectWrapper />
+        <SubjectWrapper />
+
+        <div className="mb-60">
+          <SubjectWrapper />
+        </div>
       </body>
-           
-      
-      <NavFooter/>
+
+
+      <NavFooter />
     </div>
 
   );
