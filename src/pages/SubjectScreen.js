@@ -3,7 +3,7 @@ import NavSeachBar from "../components/NavSearch"
 import SubjectWrapper from "../components/SubjectWrapper";
 
 
-function Config() {
+function SubjectScreen() {
   return (
     <div >
       <NavSeachBar />
@@ -12,8 +12,8 @@ function Config() {
         <div className="mt-120">
           <SubjectWrapper />
         </div>
-        <SubjectWrapper />
-        <SubjectWrapper />
+          <SubjectWrapper />
+          <SubjectWrapper />
 
         <div className="mb-60">
           <SubjectWrapper />
@@ -26,4 +26,4 @@ function Config() {
 
   );
 }
-export default Config;
+export default SubjectScreen;

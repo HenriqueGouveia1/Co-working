@@ -13,6 +13,8 @@ import TalkToUs from './pages/TalkToUs'
 import TalkToUsFeedback from './pages/TalkToUsFeedback'
 import Terms from './pages/Terms'
 import AppData from './pages/AppData'
+import Configuration from './pages/Configuration';
+import ResourcesInLibras from './pages/ResourcesInLibras';
 
 import { 
   BrowserRouter as Router,
@@ -57,6 +59,12 @@ ReactDOM.render(
         </Route>
         <Route path="/appdata">
           <AppData/>
+        </Route>
+        <Route path="/config">
+          <Configuration/>
+        </Route>
+        <Route path="/resourcesinlibras">
+          <ResourcesInLibras/>
         </Route>
       </Switch>
     </Router>
