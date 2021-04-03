@@ -1,5 +1,5 @@
-import NavFooter from "../componets/NavFooter";
-import NavHeader from "../componets/NavHeaderHelp";
+import NavFooter from "../components/NavFooter";
+import NavHeader from "../components/NavHeaderHelp";
 
 function AppData() {
     return (

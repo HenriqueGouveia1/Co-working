@@ -1,5 +1,7 @@
-import NavFooter from "../componets/NavFooter";
-import NavSeachBar from "../componets/NavSearch"
+import NavFooter from "../components/NavFooter";
+import NavSeachBar from "../components/NavSearch"
+import SubjectWrapper from "../components/SubjectWrapper";
+
 
 function Config() {
   return (
@@ -7,64 +9,15 @@ function Config() {
       <NavSeachBar/>
       
       <body>
-       <div className="mt-120">
-       <h1 id="wrapperTitle" className="mt-30" >Teste teste</h1>
-        <div className="wrapper">
-         
-          <div className="item" >teste</div>
-          <div className="item" >teste</div>
-          <div className="item" >teste</div>
-          <div className="item" >teste</div>
-          <div className="item" >teste</div>
-          <div className="item" >teste</div>
-
-        </div> 
-        </div>
-
-         <div>
-       <h1 id="wrapperTitle" className="mt-30" >Teste teste</h1>
-        <div className="wrapper">
-         
-          <div className="item" >teste</div>
-          <div className="item" >teste</div>
-          <div className="item" >teste</div>
-          <div className="item" >teste</div>
-          <div className="item" >teste</div>
-          <div className="item" >teste</div>
-
-        </div> 
-        </div>  
-
-        <div>
-       <h1 id="wrapperTitle" className="mt-30" >Teste teste</h1>
-        <div className="wrapper">
-         
-          <div className="item" >teste</div>
-          <div className="item" >teste</div>
-          <div className="item" >teste</div>
-          <div className="item" >teste</div>
-          <div className="item" >teste</div>
-          <div className="item" >teste</div>
-
-        </div> 
-        </div>  
-        
-         <div>
-          <h1 id="wrapperTitle" className="mt-30" >Teste teste</h1>
-            <div className="wrapper mb-60">
-              <div className="item" >teste</div>
-              <div className="item" >teste</div>
-              <div className="item" >teste</div>
-              <div className="item" >teste</div>
-              <div className="item" >teste</div>
-              <div className="item" >teste</div>
-
-            </div> 
-        
-        </div>    
-        
-      
-
+      <div className="mt-120">
+        <SubjectWrapper/>
+      </div>
+      <SubjectWrapper/>
+        <SubjectWrapper/>
+       
+       <div className="mb-60">
+       <SubjectWrapper/>
+       </div>
       </body>
            
       

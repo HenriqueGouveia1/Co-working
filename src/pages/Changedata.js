@@ -1,4 +1,4 @@
-import NavFooter from "../componets/NavFooter";
+import NavFooter from "../components/NavFooter";
 function Changedata() {
     return (
         <div className="container text-center">

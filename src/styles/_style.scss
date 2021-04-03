@@ -54,27 +54,26 @@ Mudar Depois
 }
 
 #button3 {
-    position: absolute;
-    width: 60px;
-    height: 35px;
-    left: 256px;
-    top: 277px;
-    
-    border-radius: 20px;
-    font-family: TypoGraphica;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 19px;
-    // identical to box height */
-  
-    display: flex;
-    align-items: center;
-    text-align: center;
-  
-    color: #eadede;
-  }
-  
+  position: absolute;
+  width: 60px;
+  height: 35px;
+  left: 256px;
+  top: 277px;
+
+  border-radius: 20px;
+  font-family: TypoGraphica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  // identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #eadede;
+}
 
 .data {
   font-size: 12px;
@@ -100,24 +99,43 @@ Mudar Depois
 }
 
 .Search {
-  border-bottom-style: groove;
-  border-bottom-color: #102660;
-  border-bottom-width: thin;
+  border-bottom-style: solid !important;
+  border-bottom: 1px;
+  border-bottom-color: lightslategray;
+}
+
+#navSearch{
+  border-bottom-style: solid !important;
+  border-bottom: 1px;
+  border-bottom-color: lightslategray;
 }
 
 #searchInput {
-  width: auto;
-  height: auto;
+  
+  height: 40px;
+  padding: 0px;
+  font-size: 21px;
+  margin: 10px 5px;
 
   background: #b7b7b3;
   opacity: 0.6;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 #searchInput::placeholder {
+  background-image: url(../components/lupa.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-top: 20px;
+  height: 40px;
+  
   text-align: center;
+  
+  text-indent: 20px;
+  overflow: visible;
   color: #102660;
-  font-family: "Roboto";
+  font-family: Roboto;
   font-size: 16px;
+  font-weight: bold;
 }
 
 #logo {
@@ -166,37 +184,32 @@ Mudar Depois
   left: 32px;
   top: 111px;
 
-  
   border: 5px solid #102660;
   box-sizing: border-box;
   border-radius: 10px;
 }
 
-#alertSendedMsg{
-    position: absolute;
-    width: 350px;
-    height: 150px;
-    left: 32px;
-    top: 111px;
-  
-    border: 5px solid #102660;
-    box-sizing: border-box;
-    border-radius: 10px;
-    
+#alertSendedMsg {
+  position: absolute;
+  width: 350px;
+  height: 150px;
+  left: 32px;
+  top: 111px;
+
+  border: 5px solid #102660;
+  box-sizing: border-box;
+  border-radius: 10px;
 }
 
-#alertMsg{
-  
-    font-size: bold;
-    font-weight: bold;
-    font-family: Roboto;
-    text-align: center;
-    color: #102660;
-
+#alertMsg {
+  font-size: bold;
+  font-weight: bold;
+  font-family: Roboto;
+  text-align: center;
+  color: #102660;
 }
 
-#politicsTitle{
-
+#politicsTitle {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -205,47 +218,62 @@ Mudar Depois
   color: #102660;
 }
 
-#politicsSubTitle{
+#politicsSubTitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+  color: #102660;
+}
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 18px;
-    color: #102660;
-  }
+#navHelp {
+  border-bottom-style: solid !important;
+  border-bottom: 1px;
+  border-bottom-color: lightslategray;
+}
 
-  #navHelp{
-      border-bottom-style: solid !important;
-      border-bottom: 1px;
-      border-bottom-color: lightslategray;
-  }
+.wrapper {
+  max-height: 120px;
+  border: 1px solid lightslategrey;
+  display: flex;
+  overflow-x: auto;
+}
 
-  .wrapper{
-    max-height: 120px;
-    border: 1px solid lightslategrey;
-    display: flex;
-    overflow-x: auto;
-  }
+.wrapper::-webkit-scrollbar {
+  width: 0;
+}
 
-  .wrapper::-webkit-scrollbar{
-    width: 0;
-  }
+.wrapper .item {
+  min-width: 110px;
+  height: 110px;
+  line-height: 110px;
+  text-align: center;
+  background-color: lightyellow;
+  margin-right: 2px;
+}
 
-  .wrapper .item{
-    min-width: 110px;
-    height: 110px;
-    line-height: 110px;
-    text-align: center;
-    background-color: lightyellow;
-    margin-right: 2px;
-  }
+#wrapperTitle {
+  font-family: Roboto;
+  font-style: normal;
+  color: lightyellow;
+  
+  background-color: #102660;
+  border-radius: 10px;
+}
 
-  #wrapperTitle{
-    font-family: Roboto;
-    font-style: normal;
-    color: lightyellow;
-    
-    background-color: #102660;
-    border-radius: 10px;
-  }
+#optionHelp {
+  
+ 
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 18px;
+  display: inline-flex;
+  text-decoration: none;
+
+  
+  color: #102660;
+}
