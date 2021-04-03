@@ -9,38 +9,39 @@ function Terms() {
             </div>
             <div>
               
-            <h1 id="politicsTitle" className="mt-120 mb-3">Política de Privacidade e Termos de Condições</h1>
-                <p className="mb-120">
+            <h1 id="politicsTitle" className="mt-120 mb-3 ml-30 mr-30">Política de Privacidade e Termos de Condições</h1>
+                <p  className="mb-120 mr-30 ml-30">
                 <h4 id="politicsSubTitle">Política de Privacidade</h4>
-                Este aplicativo é mantido e operado pelo Instituto Federal da Paraíba.
+                Este aplicativo é mantido e operado pelo Instituto Federal da Paraíba.<br/>
 
-                Nós coletados e utilizados alguns dados pessoais que pertencem aqueles que se cadastram no nosso aplicativo. Ao fazê-lo, agimos na qualidade de controlador desses dados e estamos sujeitos às disposições da Lei Federal n. 13.709/2008 (Lei Geral de Proteção de Dados Pessoais - LGPD).
+                <br/>Nós coletados e utilizados alguns dados pessoais que pertencem aqueles que se cadastram no nosso aplicativo. Ao fazê-lo, agimos na qualidade de controlador desses dados e estamos sujeitos às disposições da Lei Federal n. 13.709/2008 (Lei Geral de Proteção de Dados Pessoais - LGPD).<br/>
 
-                Nós cuidamos da proteção de seus dados pessoais e, por isso, disponibilizamos esta política de privacidade que contém informações importantes sobre os dados que coletamos, os direitos de uso e como entrar em contato conosco.
+                <br/>Nós cuidamos da proteção de seus dados pessoais e, por isso, disponibilizamos esta política de privacidade que contém informações importantes sobre os dados que coletamos, os direitos de uso e como entrar em contato conosco.
 
-                <br/> 1.	Dados que coletamos e motivos da coleta <br/>
+                <br></br>
+                <br/> <h4 id="politicsSubTitle1"> 1.	Dados que coletamos e motivos da coleta </h4> 
                 Nosso aplicativo coleta e utiliza alguns dados pessoais de nossos usuários, de acordo com o disposto nesta seção.<br/>
-                <br/>1.	Dados pessoais fornecidos pelo usuário<br/>
+                1.	Dados pessoais fornecidos pelo usuário<br/>
                 Nome completo, e-mail e data de nascimento<br/>
 
                 <br/> A coleta destes dados ocorre nos seguintes momentos:
                 Quando realizar cadastro no nosso aplicativo
 
-                Os dados fornecidos por nossos usuários são coletados com as seguintes finalidades:
+                <br/><br/>Os dados fornecidos por nossos usuários são coletados com as seguintes finalidades:
                 Para que seja possível o contato entre usuário e desenvolvedores.<br/>
 
-                <br/>2.	Compartilhamento de dados com terceiros<br/>
+                <br/> <h4 id="politicsSubTitle1"> 2.	Compartilhamento de dados com terceiros</h4>
                 Nós não compartilhamos seus dados pessoais com terceiros<br/>
 
-                <br/>3.	Medidas de segurança no tratamento e armazenados de dados
+                <br/><h4 id="politicsSubTitle1">3.	Medidas de segurança no tratamento e armazenados de dados.</h4>
                 O tratamento e armazenamento de dados é restrito ao Instituto Federal da Paraíba<br/>
 
-                <br/>4.	Alterações nesta política
-                <br/>A presente versão desta Política de Privacidade foi atualizada pela última vez em: 19/01/2021
+                <br/><h4 id="politicsSubTitle1">4.	Alterações nesta política</h4>
+                A presente versão desta Política de Privacidade foi atualizada pela última vez em: 19/01/2021
                 Reservamo-nos o direito de modificar, a qualquer momento, sempre que houver uma modificação, nossos usuários serão notificados acerca da mudança.
 
-                <br/>5.	Como entrar em contato conosco
-                <br/>Para esclarecer quaisquer dúvidas sobre esta Política de Privacidade ou sobre os dados pessoais que tratamos, entre em contato conosco: atlas.biolibras@gmail.com<br/>
+                <br/><br/><h4 id="politicsSubTitle">5.	Como entrar em contato conosco</h4>
+                Para esclarecer quaisquer dúvidas sobre esta Política de Privacidade ou sobre os dados pessoais que tratamos, entre em contato conosco: atlas.biolibras@gmail.com<br/>
 
                 <br/> <h4 id="politicsSubTitle">Termos e Condições</h4><br/>
                 Ao baixar ou usar o aplicativo, estes termos se aplicam automaticamente a você - portanto, certifique-se de lê-los com atenção antes de usar o aplicativo. Você não tem permissão para copiar ou modificar o aplicativo, qualquer parte do aplicativo ou nossas marcas registradas de qualquer forma. Você não tem permissão para tentar extrair o código-fonte do aplicativo e também não deve tentar traduzir o aplicativo para outros idiomas ou fazer versões derivadas. O aplicativo em si e todos os direitos autorais, direitos de banco de dados e outros direitos de propriedade intelectual relacionados a ele pertencem ao Instituto Federal da Paraíba.<br/>

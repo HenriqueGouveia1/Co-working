@@ -61,7 +61,7 @@ Mudar Depois
   top: 277px;
 
   border-radius: 20px;
-  font-family: TypoGraphica;
+  font-family: "TypoGraphica";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -104,14 +104,13 @@ Mudar Depois
   border-bottom-color: lightslategray;
 }
 
-#navSearch{
+#navSearch {
   border-bottom-style: solid !important;
   border-bottom: 1px;
   border-bottom-color: lightslategray;
 }
 
 #searchInput {
-  
   height: 40px;
   padding: 0px;
   font-size: 21px;
@@ -127,13 +126,13 @@ Mudar Depois
   background-position: left;
   padding-top: 20px;
   height: 40px;
-  
+
   text-align: center;
-  
+
   text-indent: 20px;
   overflow: visible;
   color: #102660;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 16px;
   font-weight: bold;
 }
@@ -163,7 +162,7 @@ Mudar Depois
   left: 26px;
   top: 91px;
 
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
   font-size: 15px;
@@ -204,13 +203,13 @@ Mudar Depois
 #alertMsg {
   font-size: bold;
   font-weight: bold;
-  font-family: Roboto;
+  font-family: "Roboto";
   text-align: center;
   color: #102660;
 }
 
 #politicsTitle {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -219,13 +218,22 @@ Mudar Depois
 }
 
 #politicsSubTitle {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 18px;
   color: #102660;
 }
+#politicsSubTitle1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: #102660;
+}
+
 
 #navHelp {
   border-bottom-style: solid !important;
@@ -254,19 +262,17 @@ Mudar Depois
 }
 
 #wrapperTitle {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   color: lightyellow;
-  
+
   background-color: #102660;
-  border-radius: 10px;
+  border-radius: 20px;
+  margin-right: 50px;
 }
 
 #optionHelp {
-  
- 
-  
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -274,6 +280,5 @@ Mudar Depois
   display: inline-flex;
   text-decoration: none;
 
-  
   color: #102660;
 }

@@ -6,7 +6,7 @@ function TalkToUsFeedback() {
         <div>
             <NavHeader />
 
-            <div class="form-group">
+            <div className="form-group">
                 <label id="TalkToUsTitle" className="ml-30" for="Form">Fale conosco</label>
                 
                 <div id="alertSendedMsg" className="alert alert-light mt-3" role="alert">
