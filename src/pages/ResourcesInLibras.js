@@ -6,7 +6,7 @@ function ResourcesInLibras() {
 
         <div className="">
             <NavSearchBar />
-            <div className="mt-120">
+            <div className="mt-120 mb-60">
                 <h1 id="wrapperTitle" className="" >Apresentação dos Ícones</h1>
                 <div className="grid-container ml-60 mt-3">
                     <div id="item1" className="grid-item">
@@ -16,7 +16,7 @@ function ResourcesInLibras() {
                         <p id="videoemlibras">Video em libras</p>
                     </div>
                     <div id="item2" className="grid-item">
-                       <div className="ml-60">
+                       <div className="ml-60 mr-30">
                        <img src="./img/apresentacaofav.svg" alt="Favoritos" />
                         <p>Favoritos</p>
                        </div>
@@ -27,7 +27,6 @@ function ResourcesInLibras() {
                        <img src="./img/LIBRAS.svg" alt="libras" />
                         <p>Itens em LIBRAS</p>
                        </div>
-
                         <p id="videoemlibras">Video em libras</p>
                     </div>
                     <div className="grid-item">
@@ -46,11 +45,12 @@ function ResourcesInLibras() {
                         
                     </div>
                     <div className="grid-item">
-                       <div className="ml-60">
+                       <div className=" ml-60">
                        <img src="./img/pergunta 4.png" alt="ajuda" />
                         <p>Ajuda</p>
-                        <p id="videoemlibras">Video em libras</p>
-                       </div>
+                       
+                       </div> 
+                       <p id="videoemlibras">Video em libras</p>
                     </div>
                 </div>
             </div>

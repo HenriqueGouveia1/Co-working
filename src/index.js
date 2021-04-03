@@ -15,12 +15,13 @@ import Terms from './pages/Terms'
 import AppData from './pages/AppData'
 import Configuration from './pages/Configuration';
 import ResourcesInLibras from './pages/ResourcesInLibras';
-
+import Modelo from './pages/ModeloContentScreen';
 import { 
   BrowserRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
+
 
 
 ReactDOM.render(
@@ -65,6 +66,9 @@ ReactDOM.render(
         </Route>
         <Route path="/resourcesinlibras">
           <ResourcesInLibras/>
+        </Route>
+        <Route path="/modelo">
+          <Modelo/>
         </Route>
       </Switch>
     </Router>
