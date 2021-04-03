@@ -23,7 +23,7 @@ h4 {
 }
 input,
 select {
-  border-radius: 20px !important;
+  border-radius: 30px !important;
   text-align: left !important;
 }
 input,
@@ -38,19 +38,19 @@ Mudar Depois
   color: aliceblue;
   background-color: #102660;
   border-color: #102660;
-  border-radius: 20px;
+  border-radius: 30px;
   padding: 1% 10%;
   font-family: "TypoGraphica" !important;
-  border-radius: 20px !important;
+  border-radius: 30px !important;
 }
 #button2 {
   color: aliceblue;
   background-color: #102660;
   border-color: #102660;
-  border-radius: 20px;
+  border-radius: 30px;
   padding: 1% 10%;
   font-family: "TypoGraphica" !important;
-  border-radius: 20px !important;
+  border-radius: 30px !important;
 }
 
 #button3 {
@@ -60,7 +60,7 @@ Mudar Depois
   left: 256px;
   top: 277px;
 
-  border-radius: 20px;
+  border-radius: 30px;
   font-family: "TypoGraphica";
   font-style: normal;
   font-weight: normal;
@@ -78,7 +78,7 @@ Mudar Depois
 .data {
   font-size: 12px;
   padding: 3% 3%;
-  border-radius: 20px;
+  border-radius: 30px;
   color: aliceblue;
   background-color: #102660;
   border-color: #102660;
@@ -234,7 +234,6 @@ Mudar Depois
   color: #102660;
 }
 
-
 #navHelp {
   border-bottom-style: solid !important;
   border-bottom: 1px;
@@ -267,7 +266,7 @@ Mudar Depois
   color: lightyellow;
 
   background-color: #102660;
-  border-radius: 20px;
+  border-radius: 30px;
   margin-right: 50px;
 }
 
@@ -281,4 +280,8 @@ Mudar Depois
   text-decoration: none;
 
   color: #102660;
+}
+.mb-3 {
+  margin-left: 30px;
+  margin-right: 30px;
 }

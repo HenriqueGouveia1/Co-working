@@ -9,7 +9,7 @@ function Terms() {
             </div>
             <div>
               
-            <h1 id="politicsTitle" className="mt-120 mb-3 ml-30 mr-30">Política de Privacidade e Termos de Condições</h1>
+            <h1 id="politicsTitle" className="mt-120 mb-3 ">Política de Privacidade e Termos de Condições</h1>
                 <p  className="mb-120 mr-30 ml-30">
                 <h4 id="politicsSubTitle">Política de Privacidade</h4>
                 Este aplicativo é mantido e operado pelo Instituto Federal da Paraíba.<br/>
