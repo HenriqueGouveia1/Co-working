@@ -15,7 +15,7 @@ function Modelo() {
 
                 </div>
             </div>
-            <img className="ml-30 mb-3" src="./img/apresentacaofav.svg" alt="Favoritos" />
+            <img className="ml-30 mb-3" src="./img/staryellow.png" alt="Favoritos" />
 
             <div>
                 <p className="paragrafo ml-30 mr-30">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum voluptates asperiores veniam alias velit quas maiores eum veritatis natus nihil molestias modi sunt accusantium commodi rerum, dignissimos beatae facere sint?</p>

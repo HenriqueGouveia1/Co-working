@@ -1,23 +1,22 @@
 import NavFooter from "../components/NavFooter";
 import NavSeachBar from "../components/NavSearch"
-import SubjectWrapper from "../components/SubjectWrapper";
+import SubjectWrapperfav from "../components/SubjectWrapperfav";
 
 
-function SubjectScreen() {
+function SubjectScreenfav() {
   return (
     <div >
       <NavSeachBar />
 
       <body>
         <div className="mt-120">
-          <SubjectWrapper />
+          <SubjectWrapperfav />
         </div>
       </body>
-
 
       <NavFooter />
     </div>
 
   );
 }
-export default SubjectScreen;
+export default SubjectScreenfav;

@@ -11,7 +11,7 @@ function Configuration() {
 
                 <div className="ml-30 ">
                     <h4 ><img src="img/engrenagem.svg" alt="" />
-                        <a className="mt-3 ml-30" id="optionHelp" href="/">Configurações</a>
+                        <a className="mt-3 ml-30" id="optionHelp" href="Changedata">Configurações</a>
                     </h4>
                 </div>
                 <div className="ml-30 ">

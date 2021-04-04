@@ -7,6 +7,7 @@ import Recovery from './pages/Recovery'
 import Register from './pages/Register'
 import Aceppted from './pages/Aceppted'
 import SubjectScreen from './pages/SubjectScreen'
+import SubjectScreenfav from './pages/SubjectScreenfav'
 import Changedata from './pages/Changedata'
 import Help from './pages/Help'
 import TalkToUs from './pages/TalkToUs'
@@ -42,6 +43,9 @@ ReactDOM.render(
         </Route>
         <Route exact path="/subjectscreen">
           <SubjectScreen />
+        </Route>
+        <Route exact path="/subjectscreenfav">
+          <SubjectScreenfav />
         </Route>
         <Route path="/changedata">
           <Changedata />
