@@ -1,9 +1,9 @@
 import NavFooter from "../components/NavFooter";
 import NavSeachBar from "../components/NavSearch"
-import SubjectWrapperfav from "../components/SubjectWrapperfav";
+import SubjectWrapperfav from "../components/Subjectfav";
 
 
-function SubjectScreenfav() {
+function Favoritos() {
   return (
     <div >
       <NavSeachBar />
@@ -19,4 +19,4 @@ function SubjectScreenfav() {
 
   );
 }
-export default SubjectScreenfav;
+export default Favoritos;

@@ -6,7 +6,7 @@ import Login from './pages/Login'
 import Recovery from './pages/Recovery'
 import Register from './pages/Register'
 import Aceppted from './pages/Aceppted'
-import SubjectScreenfav from './pages/SubjectScreenfav'
+import Favoritos from './pages/Favoritos'
 import Changedata from './pages/Changedata'
 import Help from './pages/Help'
 import TalkToUs from './pages/TalkToUs'
@@ -15,7 +15,7 @@ import Terms from './pages/Terms'
 import AppData from './pages/AppData'
 import Configuration from './pages/Configuration';
 import ResourcesInLibras from './pages/ResourcesInLibras';
-import Modelo from './pages/ModeloContentScreen';
+import Modelo from './pages/Modelo';
 import { 
   BrowserRouter as Router,
   Switch,
@@ -42,8 +42,8 @@ ReactDOM.render(
         <Route exact path="/home">
           <Home />
         </Route>
-        <Route exact path="/subjectscreenfav">
-          <SubjectScreenfav />
+        <Route exact path="/Favoritos">
+          <Favoritos />
         </Route>
         <Route path="/changedata">
           <Changedata />

@@ -5,10 +5,10 @@ function NavFooter() {
         <nav className="navbar" >
           <div className="container">
 
-          <a className="navbar-brand" href="subjectscreen">
+          <a className="navbar-brand" href="Home">
             <img src="img/Home.svg" width="30" height="30" className="d-inline-block align-top ml-30" alt="Home" />
           </a>
-          <a className="navbar-brand" href="SubjectScreenfav">
+          <a className="navbar-brand" href="Favoritos">
             <img src="img/FAVORITO.svg" width="30" height="30" className="d-inline-block align-top" alt="Fav" />
           </a>
           <a className="navbar-brand" href="ResourcesInLibras">

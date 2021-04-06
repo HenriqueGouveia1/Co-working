@@ -1,15 +1,15 @@
 import NavFooter from "../components/NavFooter";
-import NavSeachBar from "../components/NavSearch"
-import SubjectWrapper from "../components/SubjectWrapper";
+import NavSeach from "../components/NavSearch"
+import Subject from "../components/Subject";
 
 
 function Home() {
   return (
     <div  >
-      <NavSeachBar /> 
+      <NavSeach /> 
 
         <div className="mt-120">
-          <SubjectWrapper />
+          <Subject />
         </div>
 
 

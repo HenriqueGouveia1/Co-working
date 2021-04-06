@@ -1,4 +1,4 @@
-function NavHeader(){
+function NavHeaderHelp(){
     return(
 
     <header>
@@ -12,4 +12,4 @@ function NavHeader(){
       </header>
 
     );
-}export default NavHeader;
+}export default NavHeaderHelp;

@@ -1,4 +1,4 @@
-function SubjectWrapper() {
+function Subject() {
     return (
         <div className="">
             <div className="holderTitle me-5">
@@ -14,13 +14,13 @@ function SubjectWrapper() {
                     <button className="button4">Sistema Digestório</button>
                 </div>
 
-                <div className="item mt-30 mb-3 mb-3">
-                    <img src="img/SistemaRespiratorio.png" alt="a" />
+                <div className="item mt-30 mr-30 mb-3" >
+                    <img src="img/SistemaDigestorio.png" alt="a"/>
                     <br />
-                    <button className="button4">Sistema Respiratório</button>
+                    <button className="button4">Sistema Respiratorio</button>
                 </div>
 
-                <div className="item  mt-30 mr-30 mb-3" >
+                <div className="item ml-60 mt-30 mr-30 mb-3" >
                     <img src="img/VentilaçãoPulmonar.png" alt="a" />
                     <br />
                     <button className="button4" >Ventilação Pulmonar</button>
@@ -32,7 +32,13 @@ function SubjectWrapper() {
                     <button className="button4" >teste</button>
                 </div>
 
-                <div className="item mt-30 mb-3" >
+                <div className="item mt-30 mr-30 mb-3" >
+                    <img src="https://via.placeholder.com/300" alt="a" />
+                    <br />
+                    <button className="button4" >teste</button>
+                </div>
+
+                <div className="item mt-30 mr-30 mb-3" >
                     <img src="https://via.placeholder.com/300" alt="a" />
                     <br />
                     <button className="button4" >teste</button>
@@ -41,28 +47,32 @@ function SubjectWrapper() {
             </div>
 
             </div>
-            {}
-            <h1  className="mt-30 wrapperTitle" >Bioquímica</h1>
+            <div className="holderTitle me-5">
+                <div className="container">
+                    <h1>Bioquímica</h1>
+                </div>
+            </div>
+            <div className="container">
             <div className="wrapper">
                 <div className="item mt-30 mr-30 mb-3" >
                     <img src="img/Atomo.png" alt="a"/>
                     <br />
-                    <button className="button4" >Átomo</button>
+                    <button className="button4">Átomo</button>
                 </div>
 
                 <div className="item mt-30 mb-3 mb-3">
                     <img src="img/Agua.png" alt="a" />
                     <br />
-                    <button className="button4" >Água</button>
+                    <button className="button4">Água</button>
                 </div>
 
                 <div className="item  mt-30 mr-30 mb-3" >
-                    <img src="img/SaisMinerais.png" alt="a" />
+                    <img src="https://via.placeholder.com/300" alt="a" />
                     <br />
                     <button className="button4" >Sais Minerais</button>
                 </div>
 
-                <div className=" mt-30 mr-30 mb-3" >
+                <div className="item mt-30 mr-30 mb-3" >
                     <img src="https://via.placeholder.com/300" alt="a" />
                     <br />
                     <button className="button4" >teste</button>
@@ -74,32 +84,35 @@ function SubjectWrapper() {
                     <button className="button4" >teste</button>
                 </div>
 
-                <div className="item mt-30 mb-3" >teste
-          <br />
-                    <button className="button4" >teste</button>
+            </div>
+
+            </div>
+            <div className="holderTitle me-5">
+                <div className="container">
+                    <h1>Citologia</h1>
                 </div>
             </div>
-            <h1 className="mt-30 wrapperTitle" >Citologia</h1>
+            <div className="container">
             <div className="wrapper">
                 <div className="item mt-30 mr-30 mb-3" >
-                    <img src="img/cintologia1.png" alt="a"/>
+                    <img src="img/Cintologia1.png" alt="a"/>
                     <br />
-                    <button className="button4" >cintologia1</button>
+                    <button className="button4">Cintologia1</button>
                 </div>
 
                 <div className="item mt-30 mb-3 mb-3">
-                    <img src="img/cintologia2.png" alt="a" />
+                    <img src="img/Cintologia2.png" alt="a" />
                     <br />
-                    <button className="button4" >cintologia2</button>
+                    <button className="button4">Cintologia2</button>
                 </div>
 
                 <div className="item  mt-30 mr-30 mb-3" >
-                    <img src="img/cintologia3.png" alt="a" />
+                    <img src="img/Cintologia3.png" alt="a" />
                     <br />
-                    <button className="button4" >cintologia3</button>
+                    <button className="button4" >Cintologia3</button>
                 </div>
 
-                <div className=" mt-30 mr-30 mb-3" >
+                <div className="item mt-30 mr-30 mb-3" >
                     <img src="https://via.placeholder.com/300" alt="a" />
                     <br />
                     <button className="button4" >teste</button>
@@ -111,15 +124,12 @@ function SubjectWrapper() {
                     <button className="button4" >teste</button>
                 </div>
 
-                <div className="item mt-30 mb-3" >teste
-          <br />
-                    <button className="button4" >teste</button>
-                </div>
             </div>
-            <br/>
-            <br/>
-            <br/>
+
+            </div>
+            <br/> <br/> <br/>
+            
         </div>
 
     );
-} export default SubjectWrapper;
+} export default Subject;
