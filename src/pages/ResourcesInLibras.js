@@ -1,11 +1,11 @@
-import NavSearchBar from "../components/NavSearch";
+import NavSearch from "../components/NavSearch";
 import NavFooter from "../components/NavFooter";
 
 function ResourcesInLibras() {
     return (
 
         <div className="">
-            <NavSearchBar />
+            <NavSearch />
             <div className="mt-120 mb-60">
                 <h1 className="wrapperTitle" >Apresentação dos Ícones</h1>
                 <div className="grid-container ml-60 mt-3">

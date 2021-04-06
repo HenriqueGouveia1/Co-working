@@ -26,7 +26,7 @@ function SubjectWrapper() {
                     <button className="button4" >Ventilação Pulmonar</button>
                 </div>
 
-                <div className=" mt-30 mr-30 mb-3" >
+                <div className="item mt-30 mr-30 mb-3" >
                     <img src="https://via.placeholder.com/300" alt="a" />
                     <br />
                     <button className="button4" >teste</button>

@@ -1,4 +1,4 @@
-function NavSearchBar(){
+function NavSearch(){
     return(
         <div className="Search "> 
         <nav  className="py-2 fixed-top bg-light navSearch">
@@ -16,4 +16,4 @@ function NavSearchBar(){
         </nav>
       </div>
     );
-}export default NavSearchBar;
+}export default NavSearch;
