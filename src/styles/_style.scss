@@ -98,13 +98,13 @@ select::placeholder {
   grid-gap: 1rem;
 }
 
-#item1 {
+.item1 {
   grid-row: 1/1;
 }
-#item2 {
+.item2 {
   grid-row: 1/2;
 }
-#item3 {
+.item3 {
   grid-row: 1/3;
 }
 
@@ -114,13 +114,13 @@ select::placeholder {
   border-bottom-color: lightslategray;
 }
 
-#navSearch {
+.navSearch {
   border-bottom-style: solid !important;
   border-bottom: 1px;
   border-bottom-color: lightslategray;
 }
 
-#searchInput {
+.searchInput {
   min-width: 200px;
   padding-left: 17px;
   height: 40px;
@@ -132,7 +132,7 @@ select::placeholder {
   opacity: 0.6;
   border-radius: 10px;
 }
-#searchInput::placeholder {
+.searchInput::placeholder {
   background-image: url(../components/lupa.png);
   background-repeat: no-repeat;
   background-position: left;
@@ -150,7 +150,7 @@ select::placeholder {
   font-weight: bold;
 }
 
-#logo {
+.logo {
   width: auto;
   height: auto;
 }
@@ -168,7 +168,7 @@ select::placeholder {
   list-style-image: image("img/information_2.svg");
 }
 
-#TalkToUsTitle {
+.TalkToUsTitle {
   position: absolute;
   width: 117px;
   height: 18px;
@@ -189,7 +189,7 @@ select::placeholder {
   color: #102660;
 }
 
-#FormTalkToUs {
+.FormTalkToUs {
   position: absolute;
   width: 350px;
   height: 150px;
@@ -201,7 +201,7 @@ select::placeholder {
   border-radius: 10px;
 }
 
-#alertSendedMsg {
+.alertSendedMsg {
   position: absolute;
   width: 350px;
   height: 150px;
@@ -213,7 +213,7 @@ select::placeholder {
   border-radius: 10px;
 }
 
-#alertMsg {
+.alertMsg {
   font-size: bold;
   font-weight: bold;
   font-family: "Roboto";
@@ -221,7 +221,7 @@ select::placeholder {
   color: #102660;
 }
 
-#politicsTitle {
+.politicsTitle {
   font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
@@ -230,7 +230,7 @@ select::placeholder {
   color: #102660;
 }
 
-#politicsSubTitle {
+.politicsSubTitle {
   font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
@@ -238,7 +238,7 @@ select::placeholder {
   line-height: 18px;
   color: #102660;
 }
-#politicsSubTitle1 {
+.politicsSubTitle1 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
@@ -247,7 +247,7 @@ select::placeholder {
   color: #102660;
 }
 
-#navHelp {
+.navHelp {
   border-bottom-style: solid !important;
   border-bottom: 1px;
   border-bottom-color: lightslategray;
@@ -273,7 +273,7 @@ select::placeholder {
   margin-right: 2px;
 }
 
-#wrapperTitle {
+.wrapperTitle {
   font-family: "Roboto";
   font-style: normal;
   color: lightyellow;
@@ -285,7 +285,7 @@ select::placeholder {
   margin-right: 50px;
 }
 
-#optionHelp {
+.optionHelp {
   font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
@@ -301,12 +301,12 @@ select::placeholder {
   margin-right: 30px;
 }
 
-#cardConfig {
+.cardConfig {
   padding-top: 455px;
   background-color: #b7b7b3;
 }
 
-#videoemlibras {
+.videoemlibras {
   background-color: #102660;
   border-color: #102660;
   color: white;

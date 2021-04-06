@@ -4,7 +4,7 @@ function Modelo() {
     return (
         <div className="mt-120" >
             <NavSeachBar />
-            <h1 id="wrapperTitle" className="" >Sistema Digestório</h1>
+            <h1  className="wrapperTitle" >Sistema Digestório</h1>
             <div className="wrapper">
 
                 <div className="item mt-30 mr-30 mb-3" >

@@ -41,8 +41,8 @@ function SubjectWrapper() {
             </div>
 
             </div>
-            {/* <h1 id="wrapperTitle" className="mt-30" >Anatomia e Fisiologia Humana</h1> */}
-            <h1 id="wrapperTitle" className="mt-30" >Bioquímica</h1>
+            {}
+            <h1  className="mt-30 wrapperTitle" >Bioquímica</h1>
             <div className="wrapper">
                 <div className="item mt-30 mr-30 mb-3" >
                     <img src="img/Atomo.png" alt="a"/>
@@ -79,7 +79,7 @@ function SubjectWrapper() {
                     <button className="button4" >teste</button>
                 </div>
             </div>
-            <h1 id="wrapperTitle" className="mt-30" >Citologia</h1>
+            <h1 className="mt-30 wrapperTitle" >Citologia</h1>
             <div className="wrapper">
                 <div className="item mt-30 mr-30 mb-3" >
                     <img src="img/cintologia1.png" alt="a"/>
