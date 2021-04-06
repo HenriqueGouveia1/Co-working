@@ -3,6 +3,8 @@ function NavFooter() {
     <footer>
       <div className="navbar-expand fixed-bottom">
         <nav className="navbar" >
+          <div className="container">
+
           <a className="navbar-brand" href="subjectscreen">
             <img src="img/Home.svg" width="30" height="30" className="d-inline-block align-top ml-30" alt="Home" />
           </a>
@@ -19,6 +21,7 @@ function NavFooter() {
               </button>
             </div>
           </a>
+          </div>
         </nav>
       </div>
     </footer>

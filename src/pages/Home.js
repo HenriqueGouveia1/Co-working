@@ -3,16 +3,14 @@ import NavSeachBar from "../components/NavSearch"
 import SubjectWrapper from "../components/SubjectWrapper";
 
 
-function SubjectScreen() {
+function Home() {
   return (
-    <div >
-      <NavSeachBar />
+    <div  >
+      <NavSeachBar /> 
 
-      <body>
         <div className="mt-120">
           <SubjectWrapper />
         </div>
-      </body>
 
 
       <NavFooter />
@@ -20,4 +18,4 @@ function SubjectScreen() {
 
   );
 }
-export default SubjectScreen;
+export default Home;

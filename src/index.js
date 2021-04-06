@@ -6,7 +6,6 @@ import Login from './pages/Login'
 import Recovery from './pages/Recovery'
 import Register from './pages/Register'
 import Aceppted from './pages/Aceppted'
-import SubjectScreen from './pages/SubjectScreen'
 import SubjectScreenfav from './pages/SubjectScreenfav'
 import Changedata from './pages/Changedata'
 import Help from './pages/Help'
@@ -22,6 +21,7 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
+import Home from './pages/Home';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -39,8 +39,8 @@ ReactDOM.render(
           <Route path="/aceppted">
           <Aceppted />
         </Route>
-        <Route exact path="/subjectscreen">
-          <SubjectScreen />
+        <Route exact path="/home">
+          <Home />
         </Route>
         <Route exact path="/subjectscreenfav">
           <SubjectScreenfav />

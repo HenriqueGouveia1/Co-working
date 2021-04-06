@@ -33,7 +33,7 @@ function Changedata() {
                 <div className="mb-3">
                     <input type="password" placeholder="Confirmar Nova Senha" className="form-control btn btn-primary" id="formPass" />
                 </div>
-                <button id="button2" type="submit" className="btn btn-primary mt-15 mb-60">Alterar</button>
+                <button type="submit" className="btn btn-primary mt-15 mb-60 button2">Alterar</button>
 
             </form>
             <div>

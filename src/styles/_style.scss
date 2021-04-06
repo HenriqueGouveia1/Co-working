@@ -31,7 +31,7 @@ select::placeholder {
   text-align: left;
 }
 
-#button1 {
+.button1 {
   color: aliceblue;
   background-color: #102660;
   border-color: #102660;
@@ -40,7 +40,7 @@ select::placeholder {
   font-family: "TypoGraphica" !important;
   border-radius: 30px !important;
 }
-#button2 {
+.button2 {
   color: aliceblue;
   background-color: #102660;
   border-color: #102660;
@@ -50,7 +50,7 @@ select::placeholder {
   border-radius: 30px !important;
 }
 
-#button3 {
+.button3 {
   position: absolute;
   width: 60px;
   height: 35px;
@@ -72,7 +72,7 @@ select::placeholder {
   color: #eadede;
 }
 
-#button4 {
+.button4 {
   color: aliceblue;
   background-color: #21429d;
   border-color: #21429d;
@@ -121,6 +121,8 @@ select::placeholder {
 }
 
 #searchInput {
+  min-width: 200px;
+  padding-left: 17px;
   height: 40px;
   padding: 0px;
   font-size: 21px;
@@ -134,7 +136,8 @@ select::placeholder {
   background-image: url(../components/lupa.png);
   background-repeat: no-repeat;
   background-position: left;
-  padding-top: 20px;
+  padding-top: 30px;
+  width: 50px;
   height: 40px;
 
   text-align: center;
@@ -317,4 +320,35 @@ select::placeholder {
   font-size: bold;
   font-family: "Roboto";
   background-color: steelblue;
+}
+.center-check-form{
+  
+  left: 50%;
+}
+.wrapper{
+  img{
+    width: 95px;
+    height: 65px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+}
+.holderTitle{
+  background-color: #102660;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+
+  h1{
+    font-family: "Roboto";
+    font-style: normal;
+    color: lightyellow;
+    font-size: 20px;
+    padding: 1% 1%;
+    margin-right: 50px;
+  }
+}
+.responsive-img-logo{
+  width: 100%;
+  height: auto;
 }

@@ -11,7 +11,7 @@ function Aceppted() {
                 </div>
             </form>
             <p className="mt-120 mb-3">Senha enviada com sucesso! Sua senha foi enviada para seu e-mail. </p>
-            <button id="button2" type="submit" className="btn btn-primary mt-30 mb-4">Fazer login</button>
+            <button type="submit" className="btn btn-primary mt-30 mb-4 button2">Fazer login</button>
         </div>
     )
 }

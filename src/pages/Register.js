@@ -43,7 +43,7 @@ function Register() {
                 </div>
             </div>
 
-            <button id="button2" type="submit" className="btn btn-primary mt-5 mb-4">Criar Conta</button>
+            <button type="submit" className="btn btn-primary mt-5 mb-4 button2">Criar Conta</button>
         </form>
     <p>Ao se cadastrar, você concorda com os Termos de Serviço e a Política de Privacidade. </p>
     </div>
