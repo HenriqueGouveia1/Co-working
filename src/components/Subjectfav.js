@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom';
 function Subjectfav() {
     return (
         <div className="">
@@ -11,7 +12,7 @@ function Subjectfav() {
                 <div className="item mt-30 mr-30 mb-3" >
                     <img src="img/SistemaDigestorio.png" alt="a"/>
                     <br />
-                    <button className="button4">Sistema Digestório</button>
+                    <Link className="btn btn-primary2 " to="/Modelo">Sistema Digestorio</Link>
                 </div>
 
             </div>
@@ -27,13 +28,13 @@ function Subjectfav() {
                 <div className="item mt-30 mr-30 mb-3" >
                     <img src="img/Atomo.png" alt="a"/>
                     <br />
-                    <button className="button4">Átomo</button>
+                    <Link className="btn btn-primary2 " to="/Modelo">Átomo</Link>
                 </div>
 
                 <div className="item mt-30 mb-3 mb-3">
                     <img src="img/Agua.png" alt="a" />
                     <br />
-                    <button className="button4">Água</button>
+                    <Link className="btn btn-primary2 " to="/Modelo">Água</Link>
                 </div>
 
             </div>
@@ -49,13 +50,13 @@ function Subjectfav() {
                 <div className="item mt-30 mr-30 mb-3" >
                     <img src="img/Cintologia1.png" alt="a"/>
                     <br />
-                    <button className="button4">Cintologia1</button>
+                    <Link className="btn btn-primary2 " to="/Modelo">Cintologia1</Link>
                 </div>
 
                 <div className="item mt-30 mb-3 mb-3">
                     <img src="img/Cintologia2.png" alt="a" />
                     <br />
-                    <button className="button4">Cintologia2</button>
+                    <Link className="btn btn-primary2 " to="/Modelo">Cintologia2</Link>
                 </div>
 
             </div>

@@ -6,9 +6,9 @@ function AppData() {
         <div>
             <NavHeader />
 
-            <div>
+            <div className="container">
             <h1 className="mt-120 mb-3 politicsTitle">Dados do Aplicativo</h1>
-                <p className="mb-120">
+                <p className="mb-120 ms-30">
                 Em construção.
                 </p>
             </div>

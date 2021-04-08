@@ -1,12 +1,12 @@
 import NavFooter from "../components/NavFooter";
-import NavSeachBar from "../components/NavSearch"
+import NavSearch from "../components/NavSearch"
 import SubjectWrapperfav from "../components/Subjectfav";
 
 
 function Favoritos() {
   return (
     <div >
-      <NavSeachBar />
+      <NavSearch />
 
       <body>
         <div className="mt-120">

@@ -7,7 +7,7 @@ function Terms() {
             <div>
                 <NavHeader />
             </div>
-            <div>
+            <div className="container">
               
             <h1 className="mt-120 mb-3 politicsTitle">Política de Privacidade e Termos de Condições</h1>
                 <p  className="mb-120 mr-30 ml-30">

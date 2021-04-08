@@ -1,12 +1,12 @@
 import NavFooter from "../components/NavFooter";
-import NavSeach from "../components/NavSearch"
+import NavSearch from "../components/NavSearch"
 import Subject from "../components/Subject";
 
 
 function Home() {
   return (
     <div  >
-      <NavSeach /> 
+      <NavSearch /> 
 
         <div className="mt-120">
           <Subject />

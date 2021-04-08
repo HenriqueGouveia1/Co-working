@@ -32,13 +32,13 @@ function Register() {
                 </div>
             
             <div className="grid-container">
-                <div id= "item1" className="grid-item" className="ml-30 mr-30 mb-3">
+                <div id= "item1" className="grid-item ml-30 mr-30 mb-3" >
                     <input type="text" placeholder="JAN" className=" form-control btn btn-primary" id="formMonth"/>
                 </div>
-                <div id= "item2" className="grid-item" className="mr-30 mb-3">
+                <div id= "item2" className="grid-item mr-30 mb-3" >
                     <input type="number" placeholder="01" className="form-control btn btn-primary" id="formDay"/>
                 </div>
-                <div id= "item3" className="grid-item" className="mr-30 mb-3">
+                <div id= "item3" className="grid-item mr-30 mb-3" >
                     <input type="number" placeholder="2000" className="form-control btn btn-primary" id="formYear"/>
                 </div>
             </div>

@@ -5,18 +5,15 @@ import './styles/App.scss';
 import Login from './pages/Login'
 import Recovery from './pages/Recovery'
 import Register from './pages/Register'
-import Aceppted from './pages/Aceppted'
 import Favoritos from './pages/Favoritos'
 import Changedata from './pages/Changedata'
 import Help from './pages/Help'
 import TalkToUs from './pages/TalkToUs'
-import TalkToUsFeedback from './pages/TalkToUsFeedback'
 import Terms from './pages/Terms'
 import AppData from './pages/AppData'
-import Configuration from './pages/Configuration';
-import ResourcesInLibras from './pages/ResourcesInLibras';
+import Libras from './pages/Libras';
 import Modelo from './pages/Modelo';
-import { 
+import {
   BrowserRouter as Router,
   Switch,
   Route,
@@ -35,14 +32,11 @@ ReactDOM.render(
         </Route>
         <Route path="/recovery">
           <Recovery />
-          </Route>
-          <Route path="/aceppted">
-          <Aceppted />
         </Route>
         <Route exact path="/home">
           <Home />
         </Route>
-        <Route exact path="/Favoritos">
+        <Route exact path="/favoritos">
           <Favoritos />
         </Route>
         <Route path="/changedata">
@@ -52,29 +46,22 @@ ReactDOM.render(
           <Help />
         </Route>
         <Route path="/talktous">
-          <TalkToUs/>
-        </Route>
-        <Route path="/talktousfeedback">
-          <TalkToUsFeedback/>
+          <TalkToUs />
         </Route>
         <Route path="/terms">
-          <Terms/>
+          <Terms />
         </Route>
         <Route path="/appdata">
-          <AppData/>
+          <AppData />
         </Route>
-        <Route path="/config">
-          <Configuration/>
-        </Route>
-        <Route path="/resourcesinlibras">
-          <ResourcesInLibras/>
+        <Route path="/libras">
+          <Libras />
         </Route>
         <Route path="/modelo">
-          <Modelo/>
+          <Modelo />
         </Route>
       </Switch>
     </Router>
-
   </React.StrictMode>,
   document.getElementById('root')
 );
