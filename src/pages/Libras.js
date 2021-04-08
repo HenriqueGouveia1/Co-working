@@ -12,11 +12,12 @@ function Libras() {
                     <div className="container">
                     <div className="row">     
                         <div className="col-3 mr-120">    
+                          
                             <div className=" mt-30 mr-30 mb-3" >
                                 <div className="librasTitle">
                                     <img src="img/homeApresentacao.svg" alt="a" />
-                                    <p>Inicio</p>
-                                </div>
+                                    </div>
+                                   <p>Inicio</p>
                                 <br />
                                 <iframe width="auto" height="auto"
                                     src="https://www.youtube.com/embed/_yf5vzZ2sYE?controls=0"
@@ -30,8 +31,7 @@ function Libras() {
                                 <div className="librasTitle">
                                     <img src="img/favApresentacao.svg" alt="a" />
                                 </div>
-
-                                <p>Favoritos</p>
+                                <p className="librasTitle">Favoritos</p>
                                 <br />
                                 <iframe width="auto" height="auto"
                                     src="https://www.youtube.com/embed/_yf5vzZ2sYE?controls=0"
@@ -44,9 +44,8 @@ function Libras() {
                             <div className="mt-30 mr-30 mb-3"  >
                                 <div className="librasTitle">
                                     <img src="img/librasApresentacao.svg" alt="a" />
+                                    </div>
                                     <p>Itens em LIBRAS</p>
-                                </div>
-
                                 <br />
                                 <iframe width="auto" height="auto"
                                     src="https://www.youtube.com/embed/_yf5vzZ2sYE?controls=0"
@@ -62,9 +61,8 @@ function Libras() {
                     <div className="mt-30 mr-30 mb-3"  >
                                 <div className="librasTitle">
                                     <img src="img/menuApresentacao.svg" alt="a" />
+                                    </div>
                                     <p>Opções</p>
-                                </div>
-
                                 <br />
                                 <iframe width="auto" height="auto"
                                     src="https://www.youtube.com/embed/_yf5vzZ2sYE?controls=0"
@@ -77,9 +75,8 @@ function Libras() {
                             <div className="mt-30 mr-30 mb-3"  >
                                 <div className="librasTitle">
                                     <img src="img/condigApresentacao.svg" alt="a" />
+                                    </div>
                                     <p>Configurações</p>
-                                </div>
-
                                 <br />
                                 <iframe width="auto" height="auto"
                                     src="https://www.youtube.com/embed/_yf5vzZ2sYE?controls=0"
@@ -93,9 +90,8 @@ function Libras() {
                                
                                <div className="librasTitle">
                                     <img src="img/helpApresentacao.svg" alt="a" />
-                                    <p>Ajuda</p>
-                                </div>
-
+                                    </div>
+                                    <p>Ajuda</p>                               
                                 <br />
                                 <iframe width="auto" height="auto"
                                     src="https://www.youtube.com/embed/_yf5vzZ2sYE?controls=0"
